@@ -4,8 +4,9 @@ This repository contains all the sources for a highly advanced CANSAT based on a
 
 Additionally, it features numerous different sensors for logging, as listed below:
 
-|    Sensor    |     Model    | Manufacturer |
-|--------------|--------------|--------------|
-|     MPU      | ICM-42688-PC |    Tokmas    |
-|  Barometer   |   LPS25HBTR  |      ST      |
-| Magnetometer |   MMC5983MA  |    MEMSIC    |
+| Sensor       | Model        | Manufacturer      |
+| ------------ | ------------ | ----------------- |
+| MPU          | ICM-42688-PC | Tokmas            |
+| Barometer    | BMP581       | BOSCH             |
+| Magnetometer | MMC5983MA    | MEMSIC            |
+| Temperature  | TMP121AIDBVR | Texas Instruments |
