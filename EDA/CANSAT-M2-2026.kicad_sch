@@ -1,0 +1,176 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "7307961f-7cb3-4b36-8f89-29751d54bb23")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 17.78 29.21)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "391596be-5b7d-48f7-9488-3c1c3640ec62")
+		(property "Sheetname" "Battery"
+			(at 17.78 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Battery.kicad_sch"
+			(at 17.78 33.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CANSAT-M2-2026"
+				(path "/7307961f-7cb3-4b36-8f89-29751d54bb23"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 46.99)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4d81b11-a1a2-498b-bd71-8ef439ae7231")
+		(property "Sheetname" "Interface"
+			(at 17.78 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface.kicad_sch"
+			(at 17.78 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CANSAT-M2-2026"
+				(path "/7307961f-7cb3-4b36-8f89-29751d54bb23"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 20.32)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d7bf6397-56b4-4249-b166-31f0a9beb6a9")
+		(property "Sheetname" "Sensors"
+			(at 17.78 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 17.78 24.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CANSAT-M2-2026"
+				(path "/7307961f-7cb3-4b36-8f89-29751d54bb23"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 38.1)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e2a0f656-148d-4774-b866-35e20d3392b6")
+		(property "Sheetname" "MCU"
+			(at 17.78 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 17.78 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CANSAT-M2-2026"
+				(path "/7307961f-7cb3-4b36-8f89-29751d54bb23"
+					(page "3")
+				)
+			)
+		)
+	)
+)
