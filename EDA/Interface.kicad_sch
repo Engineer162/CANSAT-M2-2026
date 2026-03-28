@@ -1933,50 +1933,6 @@
 			)
 		)
 	)
-	(global_label "SDMMC_D1"
-		(shape bidirectional)
-		(at 55.88 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f73babc-2a31-491c-88c4-836b0beccfdc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.6841 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDMMC_CD"
-		(shape output)
-		(at 55.88 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "51e5fefd-0eda-4d1a-ad73-557dc46074df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.7349 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D+"
 		(shape bidirectional)
 		(at 189.23 48.26 0)
@@ -1995,28 +1951,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDMMC_CMD"
-		(shape bidirectional)
-		(at 55.88 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6a96c2d4-25cc-49e9-8429-8d09701eedc7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.1722 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2109,50 +2043,6 @@
 			)
 		)
 	)
-	(global_label "SDMMC_D2"
-		(shape bidirectional)
-		(at 55.88 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d75e91c1-640f-4e26-88f3-afad4e413ecc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.6841 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDMMC_D3"
-		(shape bidirectional)
-		(at 55.88 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "df46d4bc-9b2d-4061-9830-1d19af67acfa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.6841 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CC2"
 		(shape bidirectional)
 		(at 189.23 50.8 0)
@@ -2171,50 +2061,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDMMC_CK"
-		(shape bidirectional)
-		(at 55.88 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ecbcb5b6-153a-4153-a13f-40411a337631")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.6236 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDMMC_D0"
-		(shape bidirectional)
-		(at 55.88 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f85824e6-0325-4135-ab90-2763d3efe555")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.6841 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2240,6 +2086,83 @@
 				(hide yes)
 			)
 		)
+	)
+	(hierarchical_label "SDMMC_CMD"
+		(shape bidirectional)
+		(at 55.88 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1dcb177d-b2cf-4b3e-8a7b-be8143003700")
+	)
+	(hierarchical_label "SDMMC_D1"
+		(shape bidirectional)
+		(at 55.88 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25accbc3-d7ff-453a-83a8-d70cf67a2ee2")
+	)
+	(hierarchical_label "SDMMC_D0"
+		(shape bidirectional)
+		(at 55.88 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f50ce90-c32a-46e2-91b5-3df51de56b9a")
+	)
+	(hierarchical_label "SDMMC_CK"
+		(shape input)
+		(at 55.88 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9bb7c9c9-4e34-4b9e-96f7-533e397b00fd")
+	)
+	(hierarchical_label "SDMMC_D3"
+		(shape bidirectional)
+		(at 55.88 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e12a561e-ffeb-415c-b2be-a8d4efaad884")
+	)
+	(hierarchical_label "SDMMC_D2"
+		(shape bidirectional)
+		(at 55.88 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e26bade2-89e0-46a4-81b4-3fcc19065d1d")
+	)
+	(hierarchical_label "SDMMC_CK"
+		(shape output)
+		(at 55.88 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f20f841c-dffe-4d16-97a4-2c4de59352ef")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2294,6 +2217,15 @@
 			)
 		)
 		(property "Size" "R0402"
+			(at 66.04 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
 			(at 66.04 85.09 90)
 			(effects
 				(font
@@ -2446,6 +2378,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" ""
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ce6b5eb-642f-40b0-a6fd-82612b323024")
 		)
@@ -2514,6 +2455,15 @@
 			)
 		)
 		(property "Size" "R0402"
+			(at 60.96 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
 			(at 60.96 109.22 90)
 			(effects
 				(font
@@ -2598,6 +2548,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" ""
+			(at 63.5 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6798c79-52a6-44c2-a0cb-4c83fde0ea35")
 		)
@@ -2666,6 +2625,15 @@
 			)
 		)
 		(property "Size" "R0402"
+			(at 64.77 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
 			(at 64.77 119.38 90)
 			(effects
 				(font
@@ -2752,6 +2720,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" ""
+			(at 93.98 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11c418c6-9687-4829-8d76-5aecb6ec994a")
 		)
@@ -2820,6 +2797,15 @@
 			)
 		)
 		(property "Size" "R0402"
+			(at 72.39 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
 			(at 72.39 119.38 90)
 			(effects
 				(font
@@ -3003,6 +2989,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" ""
+			(at 171.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A8"
 			(uuid "75b1abb3-3f3c-4a51-a6c8-c3006e90ed43")
 		)
@@ -3121,6 +3116,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" ""
+			(at 76.2 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4faa2e9f-b40d-43df-bdde-d9cda958b3e1")
 		)
@@ -3189,6 +3193,15 @@
 			)
 		)
 		(property "Size" "R0402"
+			(at 69.85 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
 			(at 69.85 93.98 90)
 			(effects
 				(font
@@ -3267,6 +3280,15 @@
 			)
 		)
 		(property "Size" "C0402"
+			(at 85.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
 			(at 85.09 119.38 0)
 			(effects
 				(font
@@ -3457,6 +3479,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" ""
+			(at 92.71 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "697e209c-1bd8-4a15-ac5a-9ec6a15f4ef0")
 		)
@@ -3557,6 +3588,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" ""
+			(at 57.15 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65841a5d-7835-476f-b16e-effb1a47e4c6")
 		)
@@ -3625,6 +3665,15 @@
 			)
 		)
 		(property "Size" "R0402"
+			(at 72.39 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
 			(at 72.39 85.09 90)
 			(effects
 				(font
@@ -3775,6 +3824,15 @@
 				(hide yes)
 			)
 		)
+		(property "Type" ""
+			(at 59.69 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c9143f8-b88a-4752-91c5-3329f287b9d3")
 		)
@@ -3843,6 +3901,15 @@
 			)
 		)
 		(property "Size" "R0402"
+			(at 68.58 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
 			(at 68.58 106.68 90)
 			(effects
 				(font
