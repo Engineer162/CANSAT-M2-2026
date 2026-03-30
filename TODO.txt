@@ -1,0 +1,5 @@
+TODO:
+
+Check sensor INT pins to see if they are active_low or active_high.
+Check sensor CS pins to see if they are active_low or active_high.
+Check if the above pins need to be assigned as pin context to Application or otherwise.

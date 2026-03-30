@@ -7,7 +7,7 @@ Core hardware fields:
 | Component        | Model           | Manufacturer       |
 | ---------------- | --------------- | ------------------ |
 | STM32 MCU (core) | STM32H7S3L8H6   | STMicroelectronics |
-| RAM chip         | IS42S16800F-7TL | ISSI               |
+| SDRAM chip       | IS42S16800F-7TL | ISSI               |
 
 Power system:
 
@@ -21,9 +21,13 @@ Power system:
 
 Additionally, it features numerous different sensors for logging, as listed below:
 
-| Sensor       | Model        | Manufacturer      |
-| ------------ | ------------ | ----------------- |
-| MPU          | ICM-42688-PC | Tokmas            |
-| Barometer    | BMP581       | BOSCH             |
-| Magnetometer | MMC5983MA    | MEMSIC            |
-| Temperature  | TMP121AIDBVR | Texas Instruments |
+| Sensor                | Model          | Manufacturer       |
+| --------------------- | -------------- | ------------------ |
+| IMU                   | ICM-42688-PC   | Tokmas             |
+| Barometer             | BMP581         | BOSCH              |
+| Magnetometer          | MMC5983MA      | MEMSIC             |
+| Temperature (outside) | TMP121AIDBVR   | Texas Instruments  |
+| Temperature (inside)  | TMP121AIDBVR   | Texas Instruments  |
+| Ground distance (ToF) | VL53L1CXV0FY/1 | STMicroelectronics |
+
+And debugging/programming is done via a TAG-CONNECT TC2050-IDC "Plug-Of-Nails™" connector.
