@@ -1,4 +1,4 @@
-# CANSAT-M2-2026
+# CANSAT-M2-2026 "Rod From God MK1"
 
 This repository contains all the sources for a highly advanced CANSAT based on an STM32 MCU and featuring a rechargeable lithium polymer battery.
 
