@@ -1,0 +1,578 @@
+(footprint "SI4463-MODULE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f670778c-9687-4573-81d8-18507b274324")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SI4463-MODULE"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "37c76b0e-e921-4c18-b7a4-ce83e9766e97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4563e0d7-d699-4530-881a-204eb7cca57b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "acb71710-4237-4e45-be28-b014d9d66480")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "WCI1005CP20NGDG"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfa67d14-fddd-4d06-a6a3-e18174afcaf3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DigiKey_Part_Number" "CONUFL001-SMD-TCT-ND"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f755e479-df41-46b9-b94d-c7e48fcb052c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONUFL001-SMD-T/TE+Connectivity/view-part/?ref=snap"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e5744f3-64f2-4571-8709-bce123a30343")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "U.FL/MHF1 Jack 50 Ohm PCB Surface Mount"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aeaa5264-cd94-4502-9cb1-b8fc03b75449")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "TE Connectivity"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e640e5b7-24d4-49c8-aaef-a5e20c6c0a52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e40fc24-4095-42b3-8628-0080d3931a69")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/CONUFL001-SMD-T/TE+Connectivity/view-part/?ref=eda"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbc895d8-e525-4fd2-b133-3f0a0b00a985")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "0.8mm"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3770a1eb-e68c-4d81-9880-09397c76f004")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "029e145b-0ae1-4874-a834-6b7d62f7ea20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "June 9, 2023"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9ed2300-67b2-4ca8-b6ab-be4f8fa92ed0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Skyworks Solutions Inc."
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf73e89a-46f0-4108-86f2-8aecdc752944")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CREATOR" "DIZAR"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20df4319-8105-4581-b0be-e77a601437f0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VERIFIER" ""
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5dd5ee0-21a5-42b1-8359-8447ebcc7232")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "280087d5-76b3-4754-9416-a10e883c782f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=1154270&manufacturer=Linx Technologies&part_name=CONUFL001-SMD-T&search_term=None"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2195e36a-d1b6-41ed-8f90-3e19204b3af6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at -32.9 -27.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38429ebb-7495-42c0-a691-98d75d79a99c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -23.615 -10.565)
+		(end 23.276398 10.435)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "8da28c48-778d-4ab0-bed4-16af5a296176")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2dbb1a4b-1ab7-4789-b113-001f9b1fb64c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -23.5625 -9.065)
+		(size 2.2 1.35)
+		(layers "F.Cu" "F.Mask")
+		(uuid "e271abf5-1544-4cec-8a93-b46bbad932fd")
+	)
+	(pad "2" smd oval
+		(at -23.5625 -7.065)
+		(size 2.2 1.35)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3c4020fc-97d1-4a32-a9db-d78f0aa007ae")
+	)
+	(pad "3" smd oval
+		(at -23.5625 -5.065)
+		(size 2.2 1.35)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "04b4a55d-7153-42f0-873c-45fa04999660")
+	)
+	(pad "4" smd oval
+		(at -23.5625 -3.065)
+		(size 2.2 1.35)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "8360ae31-b120-4b09-adde-c639a357c4d7")
+	)
+	(pad "5" smd oval
+		(at -23.5625 -1.065)
+		(size 2.2 1.35)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "757617bb-02b5-43d1-9212-91fa27317f1d")
+	)
+	(pad "6" smd oval
+		(at -23.5625 0.935)
+		(size 2.2 1.35)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "867677c1-9ac0-4d99-b0f9-0f418478bc7c")
+	)
+	(pad "7" smd oval
+		(at -23.5625 2.935)
+		(size 2.2 1.35)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e882c595-b028-419e-ad7c-882b9480c9d1")
+	)
+	(pad "8" smd oval
+		(at -23.5625 4.935)
+		(size 2.2 1.35)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fe0b9f7a-8db1-43c1-9ccd-ddeee5aba7fc")
+	)
+	(pad "9" smd oval
+		(at -23.5625 6.935)
+		(size 2.2 1.35)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "1dcff44f-23e3-42b7-9e2d-953a951e6717")
+		(padstack
+			(mode custom)
+			(layer "In1.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In2.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In3.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In4.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In5.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In6.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In7.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In8.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In9.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In10.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In11.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In12.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In13.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In14.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In15.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In16.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In17.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In18.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In19.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In20.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In21.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In22.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In23.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In24.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In25.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In26.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In27.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In28.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In29.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "In30.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+			(layer "B.Cu"
+				(shape oval)
+				(size 2.2 1.35)
+				(thermal_bridge_angle 45)
+				(zone_connect -1)
+			)
+		)
+	)
+	(pad "10" smd oval
+		(at -23.5625 8.935)
+		(size 2.2 1.35)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fa796017-2072-4675-a60c-286f9a584810")
+	)
+	(pad "11" smd oval
+		(at 23.225 1.125)
+		(size 2.2 1.35)
+		(layers "F.Cu" "F.Mask")
+		(uuid "069cf7fb-9247-41e5-9f4d-dc24ba746a1c")
+	)
+	(pad "12" smd oval
+		(at 23.225 3.125)
+		(size 2.2 1.35)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "63c400cd-5eb5-491f-9ff8-8b05f84ad753")
+	)
+	(pad "13" smd oval
+		(at 23.225 5.125)
+		(size 2.2 1.35)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "0bee3bd4-6fee-4a1c-9bc1-caee63c6fb3e")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/CANSAT-component_models/SI4463_module.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

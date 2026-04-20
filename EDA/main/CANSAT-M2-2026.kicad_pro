@@ -569,7 +569,7 @@
           "group_by": false,
           "label": "Manufacturer Part",
           "name": "Manufacturer Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -678,6 +678,12 @@
           "label": "Type",
           "name": "Type",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Comment",
+          "name": "Comment",
+          "show": false
         }
       ],
       "filter_string": "",
