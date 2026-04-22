@@ -270,8 +270,19 @@
 			(type default)
 		)
 		(fill no)
-		(layer "Edge.Cuts")
+		(layer "Dwgs.User")
 		(uuid "8da28c48-778d-4ab0-bed4-16af5a296176")
+	)
+	(fp_rect
+		(start -24.8 -10.7)
+		(end 24.5 10.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Margin")
+		(uuid "fb2ab68e-5534-403e-a2ec-f6915e8adc8b")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
