@@ -2613,12 +2613,6 @@
 		(uuid "de56d2a8-2da8-4fca-ab56-7a532cfa1fb5")
 	)
 	(junction
-		(at 134.62 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03cf9617-2ba1-49a6-ad57-e15a3bea2413")
-	)
-	(junction
 		(at 128.27 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2757,6 +2751,12 @@
 		(uuid "9ad48460-a185-4ef1-9926-832003eadab2")
 	)
 	(junction
+		(at 134.62 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b144c81a-204a-4c28-aaa7-c75b807f4f2d")
+	)
+	(junction
 		(at 128.27 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2779,6 +2779,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea6f77eb-9852-45bb-919e-9c5271d17875")
+	)
+	(junction
+		(at 148.59 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffab6358-a035-4d8c-9b70-cd1062f1ac49")
 	)
 	(no_connect
 		(at 153.67 48.26)
@@ -2847,16 +2853,6 @@
 			(type default)
 		)
 		(uuid "0d9dc23d-21e8-470d-89f9-6c7b9ed3a1a6")
-	)
-	(wire
-		(pts
-			(xy 133.35 81.28) (xy 134.62 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e68de59-dfa3-4d55-a0ad-eedcde6fea78")
 	)
 	(wire
 		(pts
@@ -3250,6 +3246,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 81.28) (xy 153.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fcd1ec1-5a77-451c-abd7-4823191e9d5b")
+	)
+	(wire
+		(pts
 			(xy 135.89 128.27) (xy 143.51 128.27)
 		)
 		(stroke
@@ -3277,6 +3283,16 @@
 			(type default)
 		)
 		(uuid "8d61254e-38eb-4373-bb39-939d01b507a3")
+	)
+	(wire
+		(pts
+			(xy 133.35 88.9) (xy 134.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9a27e4-9ee5-404b-9711-5f2bba876c9e")
 	)
 	(wire
 		(pts
@@ -3936,7 +3952,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 133.35 81.28 180)
+		(at 133.35 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4867,6 +4883,72 @@
 			(project "CANSAT-M2-2026"
 				(path "/7307961f-7cb3-4b36-8f89-29751d54bb23/b4d81b11-a1a2-498b-bd71-8ef439ae7231"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f5d97d1-1283-4d81-89d9-ddef0004e998")
+		(property "Reference" "#PWR0110"
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d648dd5-e359-4cd6-80ed-96369d0af9ef")
+		)
+		(instances
+			(project "CANSAT-M2-2026"
+				(path "/7307961f-7cb3-4b36-8f89-29751d54bb23/b4d81b11-a1a2-498b-bd71-8ef439ae7231"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)

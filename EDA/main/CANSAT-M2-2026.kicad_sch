@@ -6295,6 +6295,12 @@
 		(uuid "7d32687f-f88d-4a8a-a671-24def43a2868")
 	)
 	(junction
+		(at 250.19 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f548d78-cbba-4a9c-8282-44ae119b6538")
+	)
+	(junction
 		(at 242.57 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6311,12 +6317,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84df7c53-d22a-4d5e-8545-0b8f7801a15b")
-	)
-	(junction
-		(at 250.19 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "854d8ecf-f235-4321-977e-62015351d05e")
 	)
 	(junction
 		(at 242.57 85.09)
@@ -8402,16 +8402,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 22.86) (xy 250.19 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60d3d810-c7c5-4f01-9a00-5d5a0ee5225f")
-	)
-	(wire
-		(pts
 			(xy 240.03 90.17) (xy 276.86 90.17)
 		)
 		(stroke
@@ -9789,6 +9779,16 @@
 			(type default)
 		)
 		(uuid "abbb3ee7-247e-47a0-aec9-c2f409c81e56")
+	)
+	(wire
+		(pts
+			(xy 250.19 30.48) (xy 265.43 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe3741c-9d7d-4ac0-8f0b-90e1967cb244")
 	)
 	(wire
 		(pts
@@ -11181,7 +11181,7 @@
 		(uuid "fffd0446-53c6-4852-bde1-8f4a5906628a")
 	)
 	(label "CORE_3V3"
-		(at 260.35 22.86 180)
+		(at 265.43 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17059,7 +17059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 264.16 108.712 90)
 			(effects
 				(font
