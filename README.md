@@ -7,7 +7,6 @@ Core hardware fields:
 | Component        | Model           | Manufacturer       |
 | ---------------- | --------------- | ------------------ |
 | STM32 MCU (core) | STM32H7S3L8H6   | STMicroelectronics |
-| SDRAM chip       | IS42S16800F-7TL | ISSI               |
 
 Power system:
 
