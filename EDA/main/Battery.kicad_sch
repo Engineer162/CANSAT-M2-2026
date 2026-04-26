@@ -5489,7 +5489,7 @@
 	)
 	(rectangle
 		(start 64.77 130.81)
-		(end 233.68 251.46)
+		(end 233.68 250.19)
 		(stroke
 			(width 0.508)
 			(type default)
@@ -10440,7 +10440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-4020"
 			(at 186.69 54.61 0)
 			(effects
 				(font
@@ -10460,6 +10460,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 186.69 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "74438356022"
+			(at 186.69 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13672,7 +13681,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 289.56 68.58 0)
 			(effects
 				(font
@@ -13691,6 +13700,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 289.56 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "74438324010"
 			(at 289.56 68.58 0)
 			(effects
 				(font
@@ -23954,7 +23972,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 461.01 68.58 0)
 			(effects
 				(font
@@ -23973,6 +23991,15 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 461.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "74438324010"
 			(at 461.01 68.58 0)
 			(effects
 				(font

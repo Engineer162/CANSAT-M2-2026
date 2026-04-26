@@ -3060,7 +3060,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CANSAT-lib:PinHeader_1x07_P2.54mm_Vertical"
+		(property "Footprint" "CANSAT-lib:AMPHENOL_91601-307LF"
 			(at 0 0 0)
 			(effects
 				(font

@@ -7002,6 +7002,26 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 184.15) (xy 40.64 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e096d7-e2e3-4d71-a218-444239943c75")
+	)
+	(wire
+		(pts
+			(xy 90.17 45.72) (xy 100.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155795c8-b0d7-4384-8120-ea090ffd34ae")
+	)
+	(wire
+		(pts
 			(xy 383.54 52.07) (xy 382.27 53.34)
 		)
 		(stroke
@@ -8212,6 +8232,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 209.55) (xy 107.95 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662bf23d-443e-4584-b15c-e2e73add5f89")
+	)
+	(wire
+		(pts
 			(xy 242.57 218.44) (xy 242.57 220.98)
 		)
 		(stroke
@@ -9059,6 +9089,16 @@
 			(type default)
 		)
 		(uuid "a3c73ef8-1a8c-44e8-80e3-377016d9e744")
+	)
+	(wire
+		(pts
+			(xy 31.75 186.69) (xy 40.64 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e0ebd7-95da-464f-ac10-6a1a26e02bad")
 	)
 	(wire
 		(pts
@@ -10052,6 +10092,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 212.09) (xy 107.95 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e906f626-9d6c-45f0-9615-7937b274d3a0")
+	)
+	(wire
+		(pts
 			(xy 87.63 101.6) (xy 100.33 101.6)
 		)
 		(stroke
@@ -10680,6 +10730,16 @@
 		)
 		(uuid "37f0a838-10b3-4a20-941d-c4b62141f305")
 	)
+	(label "USB-DM"
+		(at 99.06 212.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "393372e7-f377-4fbb-b658-31e407327d05")
+	)
 	(label "SPI2_MISO"
 		(at 52.07 86.36 180)
 		(effects
@@ -10880,6 +10940,16 @@
 		)
 		(uuid "6e1251fe-b93e-471e-bd49-a7484681bdf0")
 	)
+	(label "USB-DP"
+		(at 99.06 209.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ff520db-8c98-4746-aef2-9bce324a6238")
+	)
 	(label "ToF_SDA"
 		(at 91.44 71.12 0)
 		(effects
@@ -10929,6 +10999,16 @@
 			(justify left bottom)
 		)
 		(uuid "791efe8b-56fc-49e1-acca-a0f7b1d8ecab")
+	)
+	(label "USB-DM"
+		(at 40.64 184.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79fc4eee-8b44-4158-98ff-7a17062c73d9")
 	)
 	(label "SPI1_MISO"
 		(at 52.07 77.47 180)
@@ -10999,6 +11079,16 @@
 			(justify left bottom)
 		)
 		(uuid "8ddcf6cf-786c-4603-9f03-ef292619bc47")
+	)
+	(label "GNSS_PPS"
+		(at 90.17 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f771845-0bef-49f6-a613-e6de6ff6986b")
 	)
 	(label "GNSS_EN"
 		(at 46.99 153.67 180)
@@ -11389,6 +11479,16 @@
 			(justify right bottom)
 		)
 		(uuid "e6265c09-e59c-4381-bf0f-c92c6bd58b3e")
+	)
+	(label "USB-DP"
+		(at 40.64 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7dbd4df-9d1a-45cf-9d6c-ec7c64800beb")
 	)
 	(label "SDMMC_CMD"
 		(at 88.9 91.44 0)
@@ -21796,7 +21896,7 @@
 	)
 	(sheet
 		(at 17.78 125.73)
-		(size 13.97 57.15)
+		(size 13.97 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -21820,7 +21920,7 @@
 			)
 		)
 		(property "Sheetfile" "Interface.kicad_sch"
-			(at 17.78 183.4646 0)
+			(at 17.78 189.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22011,6 +22111,26 @@
 		(pin "SIM_TX" output
 			(at 31.75 180.34 0)
 			(uuid "0e0f70d3-08b2-45c1-9b2b-bd7a1c586d42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB-DM" bidirectional
+			(at 31.75 184.15 0)
+			(uuid "d5014f10-d638-4c62-b6cc-97d78a038521")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB-DP" bidirectional
+			(at 31.75 186.69 0)
+			(uuid "fc193f55-f3a7-4414-81e0-8fed36e11994")
 			(effects
 				(font
 					(size 1.27 1.27)

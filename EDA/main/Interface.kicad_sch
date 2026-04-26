@@ -1004,7 +1004,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CANSAT-lib:PinHeader_1x07_P2.54mm_Vertical"
+			(property "Footprint" "CANSAT-lib:AMPHENOL_91601-307LF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3664,50 +3664,6 @@
 		)
 		(uuid "6439b790-abb0-43ea-a8e1-0b9fc37addee")
 	)
-	(global_label "D-"
-		(shape bidirectional)
-		(at 153.67 45.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "036839b0-b23d-4852-8270-295172857102")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.7311 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D+"
-		(shape bidirectional)
-		(at 189.23 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6233e3e9-5a53-4743-be02-76827bc5586f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1689 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape output)
 		(at 194.31 36.83 0)
@@ -3752,28 +3708,6 @@
 			)
 		)
 	)
-	(global_label "D-"
-		(shape bidirectional)
-		(at 189.23 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ce1a0c82-b90e-4e64-b15c-77ca7a405d54")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1689 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CC2"
 		(shape bidirectional)
 		(at 189.23 50.8 0)
@@ -3792,28 +3726,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "D+"
-		(shape bidirectional)
-		(at 153.67 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fc643b8f-45f4-4e47-ae19-8c8949552c6a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.7311 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3906,6 +3818,28 @@
 		)
 		(uuid "43e3f55d-900c-42cb-b879-349d6bd20501")
 	)
+	(hierarchical_label "USB-DP"
+		(shape bidirectional)
+		(at 189.23 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62db7557-fa2a-42a1-b9b8-585039da2607")
+	)
+	(hierarchical_label "USB-DM"
+		(shape bidirectional)
+		(at 153.67 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "736bbf78-e00e-4a7d-b333-858c2a4f45f0")
+	)
 	(hierarchical_label "SDMMC_D0"
 		(shape bidirectional)
 		(at 104.14 104.14 180)
@@ -3916,6 +3850,28 @@
 			(justify right)
 		)
 		(uuid "7f50ce90-c32a-46e2-91b5-3df51de56b9a")
+	)
+	(hierarchical_label "USB-DM"
+		(shape bidirectional)
+		(at 189.23 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87b165f5-c3ea-49d2-9d10-b38e464396df")
+	)
+	(hierarchical_label "USB-DP"
+		(shape bidirectional)
+		(at 153.67 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "98f0f5fe-e78a-4ce5-a4ec-95babb65226a")
 	)
 	(hierarchical_label "SDMMC_CK"
 		(shape input)
@@ -5931,6 +5887,91 @@
 		)
 	)
 	(symbol
+		(lib_id "CANSAT-lib:Conn_01x07_Pin")
+		(at 147.32 152.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70d81f7e-bb73-4912-9d49-f2fc9f930a35")
+		(property "Reference" "J12"
+			(at 139.7 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SIM800L V2"
+			(at 136.398 141.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CANSAT-lib:AMPHENOL_91601-307LF"
+			(at 147.32 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x07, script generated"
+			(at 147.32 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0613d7a-cdff-45a6-8e2a-55e7f517ce0e")
+		)
+		(pin "6"
+			(uuid "67a7a03e-0e05-4c78-b618-aa626333cc2d")
+		)
+		(pin "7"
+			(uuid "1815b354-132d-486b-84a2-10937916dce6")
+		)
+		(pin "5"
+			(uuid "3fb7a70d-6b0d-4158-b015-e09dfa4b4587")
+		)
+		(pin "2"
+			(uuid "9f2eb4ee-2511-4c38-b181-d4fb3377bb0a")
+		)
+		(pin "3"
+			(uuid "47c6672e-9ef8-4b17-82ee-58952bcb840e")
+		)
+		(pin "4"
+			(uuid "a4116edb-320c-423f-b990-acd3a7427938")
+		)
+		(instances
+			(project ""
+				(path "/7307961f-7cb3-4b36-8f89-29751d54bb23/b4d81b11-a1a2-498b-bd71-8ef439ae7231"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CANSAT-lib:12402012E212A")
 		(at 171.45 45.72 0)
 		(unit 1)
@@ -6742,90 +6783,6 @@
 			(project "CANSAT-M2-2026"
 				(path "/7307961f-7cb3-4b36-8f89-29751d54bb23/b4d81b11-a1a2-498b-bd71-8ef439ae7231"
 					(reference "C112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CANSAT-lib:Conn_01x07_Pin")
-		(at 147.32 152.4 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd2785bf-0816-4c3a-a8fd-32a7a12d1910")
-		(property "Reference" "J12"
-			(at 146.685 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SIM800L V2"
-			(at 146.685 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CANSAT-lib:PinHeader_1x07_P2.54mm_Vertical"
-			(at 147.32 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 147.32 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "9a9710c7-666f-473a-9825-75701286d682")
-		)
-		(pin "6"
-			(uuid "eed92577-d363-4072-b97a-da3d0cc34dfe")
-		)
-		(pin "1"
-			(uuid "83795e92-f75d-42d4-bd3a-754d0b618bb2")
-		)
-		(pin "7"
-			(uuid "644ec48b-4d63-4eb1-838d-4a5ced2f1cf7")
-		)
-		(pin "2"
-			(uuid "4bcf4487-842d-495f-bee8-3d87499421fd")
-		)
-		(pin "3"
-			(uuid "1fe9ea6a-9678-4147-8990-d5d26df6df65")
-		)
-		(pin "5"
-			(uuid "76cefaf7-d260-47e3-9634-e7194d28777a")
-		)
-		(instances
-			(project ""
-				(path "/7307961f-7cb3-4b36-8f89-29751d54bb23/b4d81b11-a1a2-498b-bd71-8ef439ae7231"
-					(reference "J12")
 					(unit 1)
 				)
 			)
