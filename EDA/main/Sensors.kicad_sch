@@ -2919,7 +2919,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 92.71) (xy 270.51 92.71)
+			(xy 266.7 92.71) (xy 276.86 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3069,7 +3069,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 134.62) (xy 97.79 134.62)
+			(xy 92.71 134.62) (xy 102.87 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3079,7 +3079,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 176.53) (xy 125.73 176.53)
+			(xy 115.57 176.53) (xy 125.73 176.53)
 		)
 		(stroke
 			(width 0)
@@ -3139,7 +3139,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 87.63) (xy 194.31 87.63)
+			(xy 184.15 87.63) (xy 194.31 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3169,7 +3169,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 175.26) (xy 87.63 175.26)
+			(xy 78.74 175.26) (xy 88.9 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3239,7 +3239,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 87.63) (xy 270.51 87.63)
+			(xy 262.89 87.63) (xy 276.86 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3289,7 +3289,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 175.26) (xy 35.56 175.26)
+			(xy 25.4 175.26) (xy 35.56 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3497,8 +3497,8 @@
 		)
 		(uuid "fe8d92cb-6714-4e32-93a3-d10263b188ec")
 	)
-	(label "3V3"
-		(at 97.79 134.62 180)
+	(label "SENS_3V3"
+		(at 102.87 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3507,8 +3507,8 @@
 		)
 		(uuid "2556c91f-0426-42e6-bd5c-778b114bf174")
 	)
-	(label "3V3"
-		(at 87.63 175.26 180)
+	(label "SENS_3V3"
+		(at 88.9 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3527,8 +3527,8 @@
 		)
 		(uuid "4f8d15c0-e342-4ad2-81ba-6d1a8f007b34")
 	)
-	(label "3V3"
-		(at 118.11 176.53 0)
+	(label "SENS_3V3"
+		(at 115.57 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3537,7 +3537,7 @@
 		)
 		(uuid "6df3d5d7-92ae-490e-b3a1-59e2cd0527cf")
 	)
-	(label "3V3"
+	(label "SENS_3V3"
 		(at 185.42 130.81 0)
 		(effects
 			(font
@@ -3557,8 +3557,8 @@
 		)
 		(uuid "7b940a1b-c635-4e3b-9672-d0cd6a8af4da")
 	)
-	(label "3V3"
-		(at 189.23 87.63 0)
+	(label "SENS_3V3"
+		(at 184.15 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3567,8 +3567,8 @@
 		)
 		(uuid "850fd13b-554a-46c1-ae4d-82ceb337acd5")
 	)
-	(label "3V3"
-		(at 270.51 92.71 180)
+	(label "SENS_3V3"
+		(at 276.86 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3577,7 +3577,7 @@
 		)
 		(uuid "95842632-5ae8-468c-b613-ea04ddb67210")
 	)
-	(label "3V3"
+	(label "SENS_3V3"
 		(at 261.62 135.89 180)
 		(effects
 			(font
@@ -3587,8 +3587,8 @@
 		)
 		(uuid "aea6632f-7cc3-44ea-9119-8699d836a6a3")
 	)
-	(label "3V3"
-		(at 26.67 175.26 0)
+	(label "SENS_3V3"
+		(at 25.4 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3597,8 +3597,8 @@
 		)
 		(uuid "d9f5fc89-7d49-4328-80bb-1f8d68754842")
 	)
-	(label "3V3"
-		(at 270.51 87.63 180)
+	(label "SENS_3V3"
+		(at 276.86 87.63 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4073,7 +4073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL05B104KP5NNNC"
 			(at 35.56 168.91 0)
 			(effects
 				(font
@@ -4376,7 +4376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "ICM-42688-P"
 			(at 204.47 77.47 0)
 			(effects
 				(font
@@ -4517,7 +4517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "TMP121AIDBVR"
 			(at 125.73 171.45 0)
 			(effects
 				(font
@@ -4718,7 +4718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL05B104KP5NNNC"
 			(at 78.74 168.91 0)
 			(effects
 				(font
@@ -4824,7 +4824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "BMP581"
 			(at 36.83 175.26 0)
 			(effects
 				(font
@@ -5168,7 +5168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10X106MO8NRNC"
 			(at 266.7 147.32 0)
 			(effects
 				(font
@@ -5555,7 +5555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL05B104KP5NNNC"
 			(at 194.31 91.44 0)
 			(effects
 				(font
@@ -5643,6 +5643,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 62.23 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TPS22919DCKR"
 			(at 62.23 139.7 0)
 			(effects
 				(font
@@ -5756,7 +5765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10B105MO8NNWC"
 			(at 26.67 86.36 0)
 			(effects
 				(font
@@ -5862,7 +5871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "MMC5983MA"
 			(at 209.55 128.27 0)
 			(effects
 				(font
@@ -6066,6 +6075,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" "TPS22919DCKR"
+			(at 62.23 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f2cb7698-c6df-45b6-b134-7fce12c204cf")
 		)
@@ -6171,7 +6189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10X106MO8NRNC"
 			(at 85.09 88.9 0)
 			(effects
 				(font
@@ -6360,7 +6378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10X106MO8NRNC"
 			(at 85.09 138.43 0)
 			(effects
 				(font
@@ -6629,6 +6647,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" "2328702-8"
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7df1bc72-5d6b-4f53-a0f1-5c6cc28e6621")
 		)
@@ -6815,7 +6842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10B105MO8NNWC"
 			(at 92.71 88.9 0)
 			(effects
 				(font
@@ -6938,7 +6965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10B105MO8NNWC"
 			(at 26.67 135.89 0)
 			(effects
 				(font
@@ -7061,7 +7088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL05B104KP5NNNC"
 			(at 125.73 180.34 0)
 			(effects
 				(font
@@ -7287,7 +7314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "1-2328702-0"
 			(at 165.1 133.35 0)
 			(effects
 				(font
@@ -7768,7 +7795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10B105MO8NNWC"
 			(at 92.71 138.43 0)
 			(effects
 				(font
@@ -7957,7 +7984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL10B105MO8NNWC"
 			(at 189.23 134.62 0)
 			(effects
 				(font
@@ -8145,7 +8172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "CL05B104KP5NNNC"
 			(at 266.7 96.52 0)
 			(effects
 				(font

@@ -1482,7 +1482,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "VL53L1CXV0FY_1:SENSOR_VL53L1CXV0FY_1"
+		(property "Footprint" "CANSAT-lib:SENSOR_VL53L1CXV0FY_1"
 			(at 0 0 0)
 			(effects
 				(font

@@ -665,7 +665,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "VL53L1CXV0FY_1:SENSOR_VL53L1CXV0FY_1"
+			(property "Footprint" "CANSAT-lib:SENSOR_VL53L1CXV0FY_1"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2290,6 +2290,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" "1-2328702-0"
+			(at 171.45 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c136dd43-2079-4764-b75d-0a1cf89ae3cb")
 		)
@@ -2361,7 +2370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VL53L1CXV0FY_1:SENSOR_VL53L1CXV0FY_1"
+		(property "Footprint" "CANSAT-lib:SENSOR_VL53L1CXV0FY_1"
 			(at 111.76 106.68 0)
 			(effects
 				(font
@@ -2496,6 +2505,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "VL53L1CXV0FY/1"
+			(at 111.76 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2811,6 +2829,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part" "CL05B104KP5NNNC"
+			(at 93.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af3ee16e-d683-42a2-b819-596d43c6eee3")
 		)
@@ -2873,6 +2900,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 96.52 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TMP121AIDBVR"
 			(at 96.52 67.31 0)
 			(effects
 				(font
@@ -2972,6 +3008,15 @@
 			)
 		)
 		(property "Type" ""
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KP5NNNC"
 			(at 143.51 100.33 0)
 			(effects
 				(font
@@ -3140,7 +3185,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "RC0402JR-074K7L"
 			(at 130.81 50.8 0)
 			(effects
 				(font
@@ -3246,6 +3291,15 @@
 			)
 		)
 		(property "Type" ""
+			(at 151.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL10A475KP8NNNC"
 			(at 151.13 100.33 0)
 			(effects
 				(font
@@ -3414,7 +3468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "RC0402JR-074K7L"
 			(at 138.43 50.8 0)
 			(effects
 				(font
